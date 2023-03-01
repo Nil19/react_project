@@ -1,4 +1,5 @@
 import logo from './n.png';
+import Button from './Button.js';
 import './App.css';
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
         <p>
           Learning React as a hobby
         </p>
-        <button
+        <Button buttonText={"Please click me!"} paragraphText={"hello"}/> 
+         <button
           className="button"
         >
         <a
