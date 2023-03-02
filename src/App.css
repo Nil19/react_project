@@ -28,7 +28,7 @@
 
 .App-link {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 @keyframes App-logo-spin {
@@ -40,7 +40,18 @@
   }
 }
 
-.button {
+button {
   padding: 10px;
-  background-color: #272727;
+  background-color: #424242;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 0 2px 1px rgb(0, 0, 0, 0.1);
+}
+button:hover {
+  opacity: 0.8;
 }
